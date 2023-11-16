@@ -5,6 +5,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 200px);
     gap: 10px;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -19,6 +20,8 @@
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
+    height: 150px;
+    width: 150px;
 }
 
 .tile img {
